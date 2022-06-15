@@ -6,11 +6,22 @@ def sub(a=10,b=20):
  c=b-a
  print("Sub result is ", c)
  
-def mulitplication€(a,b):
+def mulitplication€(a=5,b=5):
   c=a*b
   print("multiplication result is",c)
  
-def div(a=10,b=5):
+def div():
+  a=10,b=5
   c=a/b
   print("div result is ",c)
  
+def verifytitle():
+  s=Service(Chromedrivermanager().install())
+  driver=webdriver.Chrome(Service=s)
+  driver.get("http://www.fb.com')
+  driver.maxmize_window()
+  driver.implicit_wait(30)
+  actual_title=driver.title
+  assert actual_title=="Facbook - log in or sign up"
+  driver.close
+  
