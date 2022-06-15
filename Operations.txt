@@ -1,5 +1,8 @@
-def add():
-  a,b,c=10,20,30
+def add(a=10,b=20,c=30):
   d=a+b+c
   print("result is ", d)
- 
+  
+def sub():
+ a,b=10,20
+ c=b-a
+ print("Sub result is ", c)
