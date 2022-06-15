@@ -1,5 +1,5 @@
 def add():
-  a,b=10,20
-  c=a+b
-  print("Add result is ", c)
+  a,b,c=10,20,30
+  d=a+b+c
+  print("result is ", d)
  
