@@ -5,3 +5,8 @@ def add(a=10,b=20,c=30):
 def sub(a=10,b=20):
  c=b-a
  print("Sub result is ", c)
+ 
+def mulitplication€(a,b):
+  c=a*b
+  print("multiplication result is",c)
+ 
