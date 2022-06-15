@@ -10,3 +10,7 @@ def mulitplication€(a,b):
   c=a*b
   print("multiplication result is",c)
  
+def div(a=10,b=5):
+  c=a/b
+  print("div result is ",c)
+ 
