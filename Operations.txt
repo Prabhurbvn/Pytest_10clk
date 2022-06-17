@@ -2,7 +2,7 @@ def add(a=10,b=20,c=30):
   d=a+b+c
   print("result is ", d)
   
-def sub(a=10,b=20):
+def sub(a=500,b=200):
  c=b-a
  print("Sub result is ", c)
  
@@ -11,7 +11,7 @@ def mulitplication€(a=5,b=5):
   print("multiplication result is",c)
  
 def div():
-  a=10,b=5
+  a=500,b=50
   c=a/b
   print("div result is ",c)
  
@@ -24,6 +24,7 @@ def verifytitle():
   actual_title=driver.title
   assert actual_title=="Facbook - log in or sign up"
   driver.close
+
   
 def verifyURL():
   
@@ -35,5 +36,6 @@ def verifyURL():
   actual_url=driver.current_url
   assert actual_url=="http://www.fb.com"
   driver.close
+print(Hello Github)  
   
-print(Hello Github)
+
