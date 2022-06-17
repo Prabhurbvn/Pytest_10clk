@@ -24,4 +24,17 @@ def verifytitle():
   actual_title=driver.title
   assert actual_title=="Facbook - log in or sign up"
   driver.close
+
+  
+def verifyURL():
+  
+  s=Service(Chromedrivermanager().install())
+  driver=webdriver.Chrome(Service=s)
+  driver.get("http://www.fb.com')
+  driver.maxmize_window()
+  driver.implicit_wait(30)
+  actual_url=driver.current_url
+  assert actual_url=="http://www.fb.com"
+  driver.close
+  
 print(Hello GitHub)  
